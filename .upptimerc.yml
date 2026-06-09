@@ -1,0 +1,30 @@
+owner: myaione
+repo: status
+user-agent: myaione-status
+
+sites:
+  - name: Los Angeles
+    slug: los-angeles
+    url: https://example.com/
+    type: globalping
+    location: Los Angeles
+  - name: Amsterdam
+    slug: amsterdam
+    url: https://example.org/
+    type: globalping
+    location: Amsterdam
+
+status-website:
+  cname: status.myaione.com
+  logoUrl: https://raw.githubusercontent.com/myaione/status/HEAD/assets/myaione-logo.svg
+  faviconSvg: https://raw.githubusercontent.com/myaione/status/HEAD/assets/myaione-logo.svg
+  name: MyaiOne Status
+  introTitle: "**MyaiOne Status**"
+  introMessage: Live availability for MyaiOne environments. Los Angeles and Amsterdam currently use dummy endpoints until production health check URLs are added.
+  navbar:
+    - title: Status
+      href: /
+    - title: Website
+      href: https://myaione.com
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
